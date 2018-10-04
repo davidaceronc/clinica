@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registrar Paciente</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Registrar Paciente</h1>
+        <hr>
+        <form method="post" action="regis_pac2.php">
+            <label>Cedula</label>
+            <input type="number" min="0" required name="txtced"><br>
+            <label>Nombre</label>
+            <input type="text" required name="txtnom"><br>
+            <label>Direccion</label>
+            <input type="text" required name="txtdir"><br>
+            <label>Fecha de Nacimiento</label>
+            <input type="date" required name="txtfec"><br>
+            <hr>
+            <input type="submit" value="Guardar Cambios">
+        </form>
+        <a href='index.php'>Regresar</a>
+    </body>
+</html>
